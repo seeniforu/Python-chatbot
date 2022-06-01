@@ -1,0 +1,217 @@
+{"intents": [
+        {"tag": "greeting",
+         "patterns": ["Hi there", "Is anyone there?","Hey", "Hello", "Good day"],
+         "responses": ["Hello, thanks for asking", "Good to see you again", "Hi there, how can I help?"],
+         "context": [""]
+        },
+        {"tag": "goodbye",
+         "patterns": ["Bye", "See you later", "Goodbye", "Nice chatting to you, bye", "Till next time"],
+         "responses": ["See you!", "Have a nice day", "Bye! Come back again soon."],
+         "context": [""]
+        },
+        {"tag": "thanks",
+         "patterns": ["Thanks", "Thank you", "That's helpful", "Awesome, thanks", "Thanks for helping me"],
+         "responses": ["Happy to help!", "Any time!", "My pleasure"],
+         "context": [""]
+        },
+
+        {"tag": "name",
+         "patterns": ["your name", "what is your name", "name please","may i know your name"],
+         "responses": ["I'm Support Agent"],
+         "context": [""]
+        },
+
+	{"tag": "about_us",
+         "patterns": ["how are you","what about you","about you"],
+         "responses": ["I am fine"],
+         "context": [""]
+        },
+
+	{"tag": "their_question",
+         "patterns": ["can i ask you a question","may i ask a question","can i ask question"],
+         "responses": ["go ahead ask me"],
+         "context": [""]
+        },
+
+        {"tag": "their_name",
+         "patterns": ["My name is","my name","i am a programmer"],
+         "responses": ["oh that's nice"],
+         "context": [""]
+        },
+        {"tag": "options",
+         "patterns": ["How you could help me?", "What you can do?", "What help you provide?", "How you can be helpful?", "What support is offered","help me"],
+         "responses": ["I can tell you what are the available offer and information for JIO"],
+         "context": [""]
+        },
+        {"tag": "good_morning",
+         "patterns": ["hello good morning","good morning" ],
+         "responses": ["Good Morning Sir/Madam"],
+         "context": [""]
+        },
+        {"tag": "good_afternoon",
+         "patterns": ["hello good afternoon","good afternoon" ],
+         "responses": ["Good Afternoon Sir/Madam"],
+         "context": [""]
+        },
+        {"tag": "good_evening",
+         "patterns": ["hello good evening","good evening"],
+         "responses": ["Good Evening Sir/Madam"],
+         "context": [""]
+        },
+        {"tag": "good_night",
+         "patterns": ["good night"],
+         "responses": ["good night"],
+         "context": [""]
+        },
+	{"tag": "difference_in_jio",
+         "patterns": ["WHAT IS RELIANCE JIO AND HOW VOLTE IS DIFFERENT FROM OTHERS?"],
+         "responses": ["Reliance Jio is a new mobile network that will be launching in India and will be the first VoLTE enabled network. They aim to give users an amazing voice and data experience to users right on their mobile device. They have also developed a complete ecosystem around Jio to bring rich digital content to users for a cheaper price when compared to other services. They have also launched some affordable devices in the market with the cheapest one priced at Rs. 3000 (LYF Flame). VoLTE, on the other hand, is the voice network Jio is delivering to users. The SIM cards will not be different, but the band on which they operate will be different. VoLTE stands for Voice Over LTE and it’s like taking calls in high definition which is done on a 4G network when compared to Airtel, Vodafone and other networks which are still utilizing the 3G/2G network for calls. One more advantage of VoLTE is that you will be able to access the internet on the phone even while you are on a call."],
+         "context": [""]
+        },
+	{"tag": "jioid_repair",
+         "patterns": ["my jio id is damaged how i will fix it","to fix jio id","how to fix jio id"],
+         "responses": ["you encounter any of the issues listed below then you might have a SIM card that is not working properly. It is not repair. you can not fix this problem. Reactivating the Jio SIM or replacement of lost. Contact the SIM card''s service provider and check if the lost card is turned off and no unexpected usage occurs. Or Go to jio service centre they will help you and resolved your problem."],
+         "context": [""]
+        },
+	{"tag": "plan_repeated",
+         "patterns": ["Accidentally Current Recharge Plan Has been repeated, How could I get back The Money?","plan by mistake repeated again"],
+         "responses": ["If any chance that the Recharge Plan Repeated, the Money will be Refunded to your account with in several days!"],
+         "context": [""]
+        },
+	{"tag": "jio_care",
+         "patterns": ["How do I stop Jio customer care calls?","stop customer care calls","jio company calls","jio spam or unwanted calls"],
+         "responses": ["SMS START 0 to the number 1909. This will activate full DND on your number.You may also call 1909 and follow the prompts to activate full DND."],
+         "context": [""]
+        },
+	{"tag": "jio_issues",
+         "patterns": ["Why Jio recharge is not working?","recharge done before not working","can't use internet"],
+         "responses": ["Check if you have done recharge from top-up, if you did then it should showing your account as a balance but when you try to call someone it will ask you to recharge. So the thing is the amount is showing in your account which is MONETARY balance.","check your recharge transaction is done or not,otherwise received a successfully recharged messeage."],
+         "context": [""]
+        },
+	{"tag": "calling_unlimited",
+         "patterns": ["Is Jio calling Unlimited?","is jio to jio calls unlimited","jio calls truly unlimited"],
+         "responses": ["This affordable plan from Reliance Jio offers unlimited on-net calling, off-net FUP of 3000 minutes, and 1000 SMS with a validity of 84 days."],
+         "context": [""]
+        },
+        {"tag": "age",
+         "patterns": ["what is your age?","your age please" ],
+         "responses": ["my age is 19","I am 19 years old"],
+         "context": [""]
+        },
+	{"tag": "jio_contact",
+         "patterns": ["how can i contact jio?","to contact jio officials","to contact jio for business","to report a bug in jio","official mail for jio","to complain about bug"],
+         "responses": ["For new business connection, email us at business@jio.com, If you have queries related to Online Shoping, please email us at shop@jio.com, For any security vulnerability, email us immediately at jio.bugsreporting@jio.com"],
+         "context": [""]
+        },
+	{"tag": "wifi_calling",
+         "patterns": ["What is Wi-Fi calling?","wifi calling in jio"],
+         "responses": ["Wi-Fi Calling is a path-breaking technology that allows customers to make and receive calls over a Wi-Fi network using their existing Jio phone number. Make and receive calls with Wi-Fi using existing Jio phone number. Helps connect in case of signal issues in remote areas or cellular-dark zones of a building."],
+         "context": [""]
+        },
+	{"tag": "jio_minimum",
+         "patterns": ["What is the minimum monthly recharge for Jio?","low amount recharge in jio","minimum monthly recharge" ],
+         "responses": ["Lowest prepaid recharge plan offered by Jio is of Rs 129, which is valid for 28 days. Under this plan, users get Jio-to-Jio unlimited calls, off-net FUP of 1,000 minutes, and 2GB total data."],
+         "context": [""]
+        },
+	{"tag": "active_jio",
+         "patterns": ["How do I keep my Jio SIM active?","to keep jio active","not allowing to deactivate" ],
+         "responses": ["To keep your services active, you must recharge your Jio number with any of the available tariff plans. According to Jio's terms and conditions, to keep the sim active, you must recharge your Jio number within 30 days after the last plan validity gets over."],
+         "context": [""]
+        },
+	{"tag": "jio_terms",
+         "patterns": ["what are terms and conditions for jio?","official website of jio","website for jio" ],
+         "responses": ["you can visit official website of jio (jio.com) for more and detailed information"],
+         "context": [""]
+        },
+	{"tag": "app_jio",
+         "patterns": ["how to get jio app?","how to download jio app" ],
+         "responses": ["you can download it from google playstore for android and in apple store for IOS Platform."],
+         "context": [""]
+        },
+	{"tag": "fiber_trial",
+         "patterns": ["What is the JioFiber Trial Offer?","trial offer for jio fiber","offer for jio fiber","plans for jio fiber"],
+         "responses": ["JioFiber Trial offer is a no-condition 30 days free trial that provides,Truly unlimited Internet at 150 Mbps with symmetric speed,Access to 10 paid OTT applications at no cost,Unlimited voice,If you don’t like the service, we will take it back, no questions asked. We will refund the entire ONE TIME CHARGE paid at the time of activation.There are 2 products available during the free trial,Internet only free trial that comes at a REFUNDABLE ONE TIME CHARGE OF Rs 1,500,Internet + OTT free trial that comes at a REFUNDABLE ONE TIME CHARGE OF Rs 2,500"],
+         "context": [""]
+        },
+	{"tag": "fiber_unlimited",
+         "patterns": ["Is Jio fiber truly unlimited?","jio fiber is unlimited","what is jio fiber limit per day" ],
+         "responses": ["Reliance Jio Infocomm Limited's New Jio Fiber plans are not truly unlimited and comes with a bandwidth limit. As per the terms and conditions, the broadband connection's data usage is capped at a limit of 3.3TB and will be switched to 1 Mbps speed upon reaching data usage limit."],
+         "context": [""]
+        },
+	{"tag": "jio_fiber",
+         "patterns": ["What is JioFiber?","do you know about jio fiber","tell me about jio fiber" ],
+         "responses": ["JioFiber offers superior internet experience to explore your Digital Life. JioFiber is the technology of the future. It offers the ultimate broadband experience to surf, stream, game and work.JioFiber broadband beats the rest because of its ultra fast upload and download speeds & effective functioning in merely ‘milli seconds’. Now, imagine a high speed private internet highway right inside your home. JioFiber connectivity comes directly to your premise unlike in most cases where the fiber reaches only till the building."],
+         "context": [""]
+        },
+	{"tag": "jio_network_issues",
+         "patterns": ["How to Fix Poor Network or No Signal issue in your Reliance Jio SIM card?","no signal problem","poor network connection problem","APN settings","fix APN settings or restore APN settings" ],
+         "responses": ["Choose Network Manually. The simple way to get back your signal is to search manually for networks in Settings.Create a New APN.Delete the Previous APN.Default Settings for APN.Save and Reboot Your Smartphone."],
+         "context": [""]
+        },
+	{"tag": "jio_prime_web",
+         "patterns": ["how to Activate Jio Prime Membership","jio prime activation by wesite","to start jio prime membership"],
+         "responses": ["Go to jio official website.Submit jio number to login your recharge portal.Browse Rs.99 Jio Prime membership offer.Select this and proceed for payment.Now you are Jio prime member."],
+         "context": [""]
+        },
+	{"tag": "jio_prime_app",
+         "patterns": ["how to Activate Jio Prime Membership from mobile","jio prime activation by app","to start jio prime membership"],
+         "responses": ["Download Update your MyJio application from the Play Store or App Store.Open the application and swipe left to bring the menu option.Right at the top, you will find Jio Prime menu option, tap on it.Once you complete the above step, you will be greeted with a screen that has two options Get Jio Prime and Gift Jio Prime.Hit the Get Jio Prime option and make the payment."],
+         "context": [""]
+        },
+	{"tag": "jio_prime_store",
+         "patterns": ["how to Activate Jio Prime Membership offline","jio prime activation by store","to start jio prime membership","can i activate jio prime from nearby store?","jio prime by without using mobile"],
+         "responses": ["Yes Go to nearest Jio store or any Jio authorize store.Recharge for Jio Prime member offer.Pay Rs 99 and recharge your Jio number.Recharge done and now you are eligible to Jio offers."],
+         "context": [""]
+        },
+        {"tag": "details",
+         "patterns": ["which company you working for","where are you working","to whom you are working?","please your work info"],
+         "responses": ["I am a bot working for JIO","I am working for Jio company"],
+         "context": [""]
+        },
+	{"tag": "jio_speed",
+         "patterns": ["How can I increase my Jio Internet speed?","to increase internet speed","boost internet speed","how to get to internet speed settings","open LTE settings"],
+         "responses": ["To increase the speed of your Jio 4G internet, do this: Dial *#*#4636#*#*.Select the option of phone information.Select the Set preferred network type option.Select LTE only."],
+         "context": [""]
+        },
+	{"tag": "jio_dnd",
+         "patterns": ["How do you activate Do Not Disturb on Jio?","where are you working"],
+         "responses": ["Log in to Jio.com. Click on 'Settings' on the home page. Under 'Do not disturb' section, select your DND preference and tap on 'Submit' to activate the DND."],
+         "context": [""]
+        },
+        {"tag": "offers_unlimited",
+         "patterns": ["can you show me some offers","special offers","available offers","What are the current jio prepaid recharge plans","unlimited plans","unlimited offers"],
+         "responses": ["Rs.598-validity 56 days-112GB & Disney+Hotstar-Unlimited calls, Rs.249-validity 28 days-56GB-Unlimited calls, Rs.444-validity 56 days-112GB-Unlimited calls, Rs.599-validity 84 days-168GB-Unlimited calls, Rs.2599-validity 365 days-740GB & Disney+Hotstar-Unlimited calls, Rs.2399-validity 365 days-730GB-Unlimited calls(Unlimited Jio to Jio Only)"],
+         "context": [""]
+        },
+	{"tag": "offers_WFH",
+         "patterns": ["Work from home packs","show some work from home offers and packs","tell about work from home pack"],
+         "responses": ["Rs.251-validity 30 days-50GB, Rs.201-validity 30 days-40GB, Rs.151-validity 30 days-30GB"],
+         "context": [""]
+        },
+	{"tag": "jio_validity",
+         "patterns": ["What is the validity of Jio sim if not recharged?","validity of jio without recharge","incoming calls validity without recharging"],
+         "responses": ["According to Reliance Jio's terms and conditions, if you do not recharge after the validity expiration of your existing recharge, you will only be able to receive incoming calls and messages.If you do not do any recharges in 90 days, your number will be disconnected."],
+         "context": [""]
+        },
+	{"tag": "more_offers",
+         "patterns": ["some more offer packs","show extra some packs","show less amount packs"],
+         "responses": ["Rs.199-validity 28 days-42GB-Unlimited calls, Rs.399-validity 56 days-84GB-unlimited calls, Rs.555-validity 84 days-126GB-unlimited calls, Rs.777-validity 84 days-131GB & Disney+Hotstar-Unlimited calls, Rs.2121-validity 336 days-504GB-Unlimited calls(Unlimited Jio to Jio Only)"],
+         "context": [""]
+        },
+	{"tag": "talktime",
+         "patterns": ["some more offer packs","show extra some packs","show less amount packs"],
+         "responses": ["Rs.10-validity Unlimited-Rs.7.47 talktime, Rs.20-validity Unlimited-Rs.14.95 talktime , Rs.50-validity Unlimited-Rs.39.37 talktime , Rs.100-validity unlimited 81.75 talktime, Rs.500-validity Unlimited-Rs.420.73 talktime, Rs.1000-validity Unlimited-Rs.844.46 talktime "],
+         "context": [""]
+        },
+        {"tag": "services",
+         "patterns": ["please tell customer care to speak to them directly","How can I talk to Jio customer care?"],
+         "responses": ["For any queries regarding recharge plans, data balance, validity, recharge confirmation and offers call 1991 (toll free) from your Jio number. To register any complaint, you can call us on our Customer Care Number 198 (toll free). If you are calling from other numbers you can reach JioCare on 1800 889 9999."],
+         "context": [""]
+        },
+        {"tag": "about_work",
+         "patterns": ["tell me about yourself","tell about you","about you","describe you"],
+         "responses": ["I am bot currently working for JIO company and still i am in development stage"],
+         "context": [""]
+        }
+   ]
+}
